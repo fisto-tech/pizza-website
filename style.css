@@ -17,6 +17,26 @@ body {
     background-color: #000;
 }
 
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #e6e6e6;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+#preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .app-container {
     width: 100vw;
     height: 100vh;
@@ -38,23 +58,22 @@ body {
     align-items: center;
     padding: 8px 50px;
     color: #ffffff;
+    background: transparent;
+    border-bottom: 1px solid transparent;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease, border-bottom 0.3s ease;
+}
+
+.header.scrolled {
     background: rgba(10, 15, 30, 0.5);
     backdrop-filter: blur(15px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    line-height: 1;
-}
-
-.logo span {
-    font-size: 0.7rem;
-    letter-spacing: 4px;
-    font-weight: 300;
-    opacity: 0.8;
+.logo img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 4px; /* Slight rounding for a nice look */
 }
 
 .nav-links {
@@ -590,7 +609,7 @@ body {
 
     /* Hero VW */
     .hero-text {
-        margin-top: 2vw;
+        margin-top: 0.6vw;
     }
 
     .hero-text h3 {
@@ -1073,16 +1092,12 @@ body {
     margin-bottom: 50px;
 }
 
-.footer-brand h2 {
-    font-size: 2.5rem;
-    margin-bottom: 5px;
-}
-
-.footer-brand p {
-    color: rgba(255, 255, 255, 0.5);
-    letter-spacing: 2px;
+.footer-brand img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
     margin-bottom: 20px;
-    font-size: 0.8rem;
+    border-radius: 4px;
 }
 
 .footer h4 {
