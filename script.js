@@ -621,3 +621,110 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
+
+// --- Codepen Sections Animation ---
+function initCodepenAnimations() {
+    if (typeof ScrollMagic === 'undefined' || typeof gsap === 'undefined') {
+        console.warn('ScrollMagic or GSAP not loaded.');
+        return;
+    }
+    
+    let controller = new ScrollMagic.Controller();
+    
+    let t1 = gsap.timeline();
+    t1.from(".section_1_01", { duration: 4, y: -100, x: -150, ease: "power3.inOut" })
+      .from(".section_1_02", { duration: 4, y: -150, x: -250, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_03", { duration: 4, y: -80, x: -100, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_04", { duration: 4, y: -100, x: -150, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_05", { duration: 4, y: -80, x: -200, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_06", { duration: 4, y: -100, x: -350, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_07", { duration: 4, y: -50, x: -150, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_08", { duration: 4, y: 50, x: -350, ease: "power3.inOut" }, '-=4')
+      .from(".section_1_09", { duration: 4, y: 100, x: -200, ease: "power3.inOut" }, '-=4');
+
+    new ScrollMagic.Scene({
+        triggerElement: '.first-section',
+        duration: '100%',
+        triggerHook: 0,
+        offset: '300'
+    })
+    .setTween(t1)
+    .setPin('.first-section')
+    .addTo(controller);
+
+    let t2 = gsap.timeline();
+    t2.to('.top .image-container', { duration: 4, height: 0 });
+
+    new ScrollMagic.Scene({
+        triggerElement: '.second-section',
+        duration: '100%',
+        triggerHook: 0,
+        offset: '100'
+    })
+    .setTween(t2)
+    .setPin('.second-section')
+    .addTo(controller);
+
+    let t3 = gsap.timeline();
+    t3.to('.section_3_01', { duration: 4, y: -250, ease: "power3.inOut" })
+      .to('.section_3_02', { duration: 4, y: -200, ease: "power3.inOut" }, '-=4')
+      .to('.section_3_03', { duration: 4, y: -100, ease: "power3.inOut" }, '-=4')
+      .to('.section_3_04', { duration: 4, y: 0, ease: "power3.inOut" }, '-=4')
+      .to('.section_3_05', { duration: 4, y: 150, ease: "power3.inOut" }, '-=4')
+      .to('.section_3_06', { duration: 4, y: 250, ease: "power3.inOut" }, '-=4');
+
+    new ScrollMagic.Scene({
+        triggerElement: '.third-section',
+        duration: '100%',
+        triggerHook: 0,
+        offset: '200'
+    })
+    .setTween(t3)
+    .setPin('.third-section')
+    .addTo(controller);
+}
+
+window.addEventListener('load', () => {
+    initCodepenAnimations();
+    initScrollReveal();
+    initAboutPizzaAnimation();
+});
+
+// --- Scroll Reveal Animation ---
+function initScrollReveal() {
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+    
+    gsap.utils.toArray('.reveal-text').forEach(text => {
+        gsap.to(text, {
+            scrollTrigger: {
+                trigger: text,
+                start: "top 85%",
+                toggleActions: "play reverse play reverse"
+            },
+            y: 0,
+            opacity: 1,
+            duration: 0.8,
+            ease: "power3.out"
+        });
+    });
+}
+
+// --- About Us Pizza Auto Animation ---
+function initAboutPizzaAnimation() {
+    const slices = document.querySelectorAll('.slice-about');
+    if (!slices.length) return;
+    
+    let currentSliceIndex = 0;
+    
+    setInterval(() => {
+        // Remove class from previous slice
+        slices.forEach(slice => slice.classList.remove('auto-anim'));
+        
+        // Add class to current slice
+        if (slices[currentSliceIndex]) {
+            slices[currentSliceIndex].classList.add('auto-anim');
+        }
+        
+        currentSliceIndex = (currentSliceIndex + 1) % slices.length;
+    }, 3000);
+}
