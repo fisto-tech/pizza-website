@@ -164,7 +164,17 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-1-bg-1.webp",
             "images/hero-section/pizza images/pizza-1-bg-2.webp",
             "images/hero-section/pizza images/pizza-1-bg-3.webp",
-            "images/hero-section/pizza images/pizza-1-bg-4.webp"
+            "images/hero-section/pizza images/pizza-1-bg-4.webp",
+            "images/hero-section/pizza images/pizza-1-bg-5.webp",
+            "images/hero-section/pizza images/pizza-1-bg-6.webp",
+            "images/hero-section/pizza images/pizza-1-bg-7.webp",
+            "images/hero-section/pizza images/pizza-1-bg-8.webp",
+            "images/hero-section/pizza images/pizza-1-bg-9.webp",
+            "images/hero-section/pizza images/pizza-1-bg-10.webp",
+            "images/hero-section/pizza images/pizza-1-bg-11.webp",
+            "images/hero-section/pizza images/pizza-1-bg-12.webp",
+            "images/hero-section/pizza images/pizza-1-bg-13.webp",
+            "images/hero-section/pizza images/pizza-1-bg-14.webp"
         ]
     },
     {
@@ -175,9 +185,19 @@ const pizzas = [
         textColor: "#cc5f45",
         activeTextColor: "#8a2c16",
         ingredients: [
+            "images/hero-section/pizza images/pizza-2-bg-1.webp",
             "images/hero-section/pizza images/pizza-2-bg-2.webp",
             "images/hero-section/pizza images/pizza-2-bg-3.webp",
-            "images/hero-section/pizza images/pizza-2-bg-4.webp"
+            "images/hero-section/pizza images/pizza-2-bg-4.webp",
+            "images/hero-section/pizza images/pizza-2-bg-5.webp",
+            "images/hero-section/pizza images/pizza-2-bg-6.webp",
+            "images/hero-section/pizza images/pizza-2-bg-7.webp",
+            "images/hero-section/pizza images/pizza-2-bg-8.webp",
+            "images/hero-section/pizza images/pizza-2-bg-9.webp",
+            "images/hero-section/pizza images/pizza-2-bg-10.webp",
+            "images/hero-section/pizza images/pizza-2-bg-11.webp",
+            "images/hero-section/pizza images/pizza-2-bg-12.webp",
+            "images/hero-section/pizza images/pizza-2-bg-13.webp"
         ]
     },
     {
@@ -192,7 +212,16 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-3-bg-2.webp",
             "images/hero-section/pizza images/pizza-3-bg-3.webp",
             "images/hero-section/pizza images/pizza-3-bg-4.webp",
-            "images/hero-section/pizza images/pizza-3-bg-5.webp"
+            "images/hero-section/pizza images/pizza-3-bg-5.webp",
+            "images/hero-section/pizza images/pizza-3-bg-6.webp",
+            "images/hero-section/pizza images/pizza-3-bg-7.webp",
+            "images/hero-section/pizza images/pizza-3-bg-8.webp",
+            "images/hero-section/pizza images/pizza-3-bg-9.webp",
+            "images/hero-section/pizza images/pizza-3-bg-10.webp",
+            "images/hero-section/pizza images/pizza-3-bg-11.webp",
+            "images/hero-section/pizza images/pizza-3-bg-12.webp",
+            "images/hero-section/pizza images/pizza-3-bg-13.webp",
+            "images/hero-section/pizza images/pizza-3-bg-14.webp"
         ]
     },
     {
@@ -207,7 +236,14 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-4-bg-2.webp",
             "images/hero-section/pizza images/pizza-4-bg-3.webp",
             "images/hero-section/pizza images/pizza-4-bg-4.webp",
-            "images/hero-section/pizza images/pizza-4-bg-5.webp"
+            "images/hero-section/pizza images/pizza-4-bg-5.webp",
+            "images/hero-section/pizza images/pizza-4-bg-6.webp",
+            "images/hero-section/pizza images/pizza-4-bg-7.webp",
+            "images/hero-section/pizza images/pizza-4-bg-8.webp",
+            "images/hero-section/pizza images/pizza-4-bg-9.webp",
+            "images/hero-section/pizza images/pizza-4-bg-11.webp",
+            "images/hero-section/pizza images/pizza-4-bg-12.webp",
+            "images/hero-section/pizza images/pizza-4-bg-13.webp"
         ]
     },
     {
@@ -221,7 +257,13 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-5-bg-1.webp",
             "images/hero-section/pizza images/pizza-5-bg-2.webp",
             "images/hero-section/pizza images/pizza-5-bg-3.webp",
-            "images/hero-section/pizza images/pizza-5-bg-4.webp"
+            "images/hero-section/pizza images/pizza-5-bg-4.webp",
+            "images/hero-section/pizza images/pizza-5-bg-5.webp",
+            "images/hero-section/pizza images/pizza-5-bg-6.webp",
+            "images/hero-section/pizza images/pizza-5-bg-7.webp",
+            "images/hero-section/pizza images/pizza-5-bg-8.webp",
+            "images/hero-section/pizza images/pizza-5-bg-9.webp",
+            "images/hero-section/pizza images/pizza-5-bg-10.webp"
         ]
     },
     {
@@ -235,7 +277,18 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-6-bg-1.webp",
             "images/hero-section/pizza images/pizza-6-bg-2.webp",
             "images/hero-section/pizza images/pizza-6-bg-3.webp",
-            "images/hero-section/pizza images/pizza-6-bg-4.webp"
+            "images/hero-section/pizza images/pizza-6-bg-4.webp",
+            "images/hero-section/pizza images/pizza-6-bg-5.webp",
+            "images/hero-section/pizza images/pizza-6-bg-6.webp",
+            "images/hero-section/pizza images/pizza-6-bg-7.webp",
+            "images/hero-section/pizza images/pizza-6-bg-8.webp",
+            "images/hero-section/pizza images/pizza-6-bg-9.webp",
+            "images/hero-section/pizza images/pizza-6-bg-10.webp",
+            "images/hero-section/pizza images/pizza-6-bg-11.webp",
+            "images/hero-section/pizza images/pizza-6-bg-12.webp",
+            "images/hero-section/pizza images/pizza-6-bg-13.webp",
+            "images/hero-section/pizza images/pizza-6-bg-14.webp",
+            "images/hero-section/pizza images/pizza-6-bg-15.webp"
         ]
     },
     {
@@ -250,7 +303,15 @@ const pizzas = [
             "images/hero-section/pizza images/pizza-7-bg-2.webp",
             "images/hero-section/pizza images/pizza-7-bg-3.webp",
             "images/hero-section/pizza images/pizza-7-bg-4.webp",
-            "images/hero-section/pizza images/pizza-7-bg-5.webp"
+            "images/hero-section/pizza images/pizza-7-bg-5.webp",
+            "images/hero-section/pizza images/pizza-7-bg-6.webp",
+            "images/hero-section/pizza images/pizza-7-bg-7.webp",
+            "images/hero-section/pizza images/pizza-7-bg-8.webp",
+            "images/hero-section/pizza images/pizza-7-bg-9.webp",
+            "images/hero-section/pizza images/pizza-7-bg-10.webp",
+            "images/hero-section/pizza images/pizza-7-bg-11.webp",
+            "images/hero-section/pizza images/pizza-7-bg-12.webp",
+            "images/hero-section/pizza images/pizza-7-bg-13.webp"
         ]
     }
 ];
@@ -362,41 +423,38 @@ function updateView(direction = 0) {
 
     // Add new ingredients
     currentPizza.ingredients.forEach((src, idx) => {
-        // Duplicate each ingredient for more density
-        for (let i = 0; i < 2; i++) {
-            const img = document.createElement('img');
-            img.src = src;
-            img.className = 'ingredient';
-            
-            // Distribute in a wide circle around the pizza, offset the second copy
-            const angle = (Math.PI * 2 / currentPizza.ingredients.length) * idx + (i * Math.PI / currentPizza.ingredients.length);
-            const dist = 35 + Math.random() * 20; // 35% to 55% radius
-            const x = 50 + dist * Math.cos(angle);
-            const y = 45 + dist * Math.sin(angle); // slightly shifted up
-            
-            img.style.left = `${x}%`;
-            img.style.top = `${y}%`;
-            
-            // Randomize scale for "little big and little small", make them smaller overall
-            const scale = 0.4 + Math.random() * 0.4; // 0.4 to 0.8 instead of 0.8 to 1.8
-            img.style.setProperty('--scale', scale);
-            
-            // Randomize slow floating animation
-            const floatDuration = 15 + Math.random() * 10; // 15s to 25s
-            const floatDelay = Math.random() * -20; // Start at random point in animation
-            img.style.setProperty('--duration', `${floatDuration}s`);
-            img.style.setProperty('--delay', `${floatDelay}s`);
-            
-            ingredientsContainer.appendChild(img);
-            
-            // Trigger reflow to ensure transition runs
-            void img.offsetWidth;
-            
-            // Stagger animation slightly based on index
-            setTimeout(() => {
-                img.classList.add('active');
-            }, 50);
-        }
+        const img = document.createElement('img');
+        img.src = src;
+        img.className = 'ingredient';
+        
+        // Distribute in a wide circle around the pizza
+        const angle = (Math.PI * 2 / currentPizza.ingredients.length) * idx;
+        const dist = 35 + Math.random() * 20; // 35% to 55% radius
+        const x = 50 + dist * Math.cos(angle);
+        const y = 45 + dist * Math.sin(angle); // slightly shifted up
+        
+        img.style.left = `${x}%`;
+        img.style.top = `${y}%`;
+        
+        // Randomize scale for "little big and little small", make them smaller overall
+        const scale = 0.4 + Math.random() * 0.4; // 0.4 to 0.8 instead of 0.8 to 1.8
+        img.style.setProperty('--scale', scale);
+        
+        // Randomize slow floating animation
+        const floatDuration = 15 + Math.random() * 10; // 15s to 25s
+        const floatDelay = Math.random() * -20; // Start at random point in animation
+        img.style.setProperty('--duration', `${floatDuration}s`);
+        img.style.setProperty('--delay', `${floatDelay}s`);
+        
+        ingredientsContainer.appendChild(img);
+        
+        // Trigger reflow to ensure transition runs
+        void img.offsetWidth;
+        
+        // Stagger animation slightly based on index
+        setTimeout(() => {
+            img.classList.add('active');
+        }, 50);
     });
 
     // Animate Pizza
@@ -699,7 +757,7 @@ function initScrollReveal() {
             scrollTrigger: {
                 trigger: text,
                 start: "top 85%",
-                toggleActions: "play reverse play reverse"
+                toggleActions: "play none none reverse"
             },
             y: 0,
             opacity: 1,
@@ -728,3 +786,24 @@ function initAboutPizzaAnimation() {
         currentSliceIndex = (currentSliceIndex + 1) % slices.length;
     }, 3000);
 }
+
+// --- Mobile Navigation Toggle ---
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    }
+});

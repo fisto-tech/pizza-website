@@ -13,6 +13,10 @@
     <!-- Preloader -->
     <div id="preloader">
         <canvas id="pizza"></canvas>
+        <div class="loading-text">Loading...</div>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
     </div>
 
     <div id="app">
@@ -21,19 +25,26 @@
             <div class="logo">
                 <img src="images/logo.jpg" alt="FIST-O Logo">
             </div>
-            <nav class="nav-links">
-                <a href="#app">Home</a>
-                <a href="#about">About Us</a>
-                <a href="#products">Products</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <div class="nav-right">
-                <button class="explore-btn">Explore FIST-O</button>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-menu">
+                <nav class="nav-links">
+                    <a href="#app">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <div class="nav-right">
+                    <button class="explore-btn">Explore FIST-O</button>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -42,7 +53,7 @@
         <main class="hero">
             <div class="hero-text">
                 <h3>Discover The Best Flavors</h3>
-                <h2 id="hero-heading">CRAVE THE TASTE</h2>
+                <!-- <h2 id="hero-heading">CRAVE THE TASTE</h2> -->
             </div>
 
             <!-- Circular Menu Text -->
@@ -74,6 +85,66 @@
             <button class="nav-btn prev-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
             <button class="nav-btn next-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
         </main>
+    </div>
+
+
+    <!-- New Scrolling Animation Sections from Codepen (Part 1) -->
+    <div class="cp-wrapper">
+        <section class="first-section cp-section">
+            <h1>Make a Pizza by Scrolling with <br />Animation</h1>
+            <div class="images-wrapper">
+                <img class="section_1_bg" src="/images/pizza-section/pizza-half-image.webp" />
+                <div class="ingredient-images">
+                    <img class="section_1_01" src="https://www.dropbox.com/s/atuvpzvo59wxeef/section_1_01.webp?raw=1" />
+                    <img class="section_1_02" src="https://www.dropbox.com/s/7mvrx106israo1z/section_1_02.webp?raw=1" />
+                    <img class="section_1_03" src="https://www.dropbox.com/s/oewc2bioujvzlp7/section_1_03.webp?raw=1" />
+                    <img class="section_1_04" src="https://www.dropbox.com/s/bxezwiwtnkx1cw0/section_1_04.webp?raw=1" />
+                    <img class="section_1_05" src="https://www.dropbox.com/s/bftnm0v5j33uv9c/section_1_05.webp?raw=1" />
+                    <img class="section_1_06" src="https://www.dropbox.com/s/hz9jbiak3laqrqp/section_1_06.webp?raw=1" />
+                    <img class="section_1_07" src="https://www.dropbox.com/s/jdlxt8xxdrquh9a/section_1_07.webp?raw=1" />
+                    <img class="section_1_08" src="https://www.dropbox.com/s/s41b0ualql6b74d/section_1_08.webp?raw=1" />
+                    <img class="section_1_09" src="https://www.dropbox.com/s/luxhm5e7e57t7ac/section_1_09.webp?raw=1" />
+                </div>
+            </div>
+        </section>
+        <section class="second-section cp-section">
+            <h1>Highlight the Ingredients You Love</h1>
+            <p>A truly great pizza is made with flavors you cannot ignore.</p>
+            <div class="images-wrapper bottom">
+                <div class="image-container">
+                    <img class="section_2_06" src="https://www.dropbox.com/s/kb9fxs2l7y7obvp/section_2_06.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_07" src="https://www.dropbox.com/s/ebywdet3cjr0670/section_2_07.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_08" src="https://www.dropbox.com/s/slm1nqwrsuv34x8/section_2_08.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_09" src="https://www.dropbox.com/s/kywqj06sz972r7g/section_2_09.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_10" src="https://www.dropbox.com/s/0msebcd4otsahqe/section_2_10.webp?raw=1" />
+                </div>
+            </div>
+            <div class="images-wrapper top">
+                <div class="image-container">
+                    <img class="section_2_01" src="https://www.dropbox.com/s/fbdaroubtk7ctb2/section_2_01.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_02" src="https://www.dropbox.com/s/4724yf637hh0z1t/section_2_02.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_03" src="https://www.dropbox.com/s/5iquebsptt1gf4m/section_2_03.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_04" src="https://www.dropbox.com/s/49ebf38ycede0yb/section_2_04.webp?raw=1" />
+                </div>
+                <div class="image-container">
+                    <img class="section_2_05" src="https://www.dropbox.com/s/7th16qwis8v1vnq/section_2_05.webp?raw=1" />
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- About Us Section -->
@@ -150,130 +221,78 @@
         </div>
     </section>
 
-    <!-- AR Experience Section -->
-    <section id="ar-experience" class="ar-section">
-        <!-- Split Background -->
-        <div class="ar-bg">
-            <div class="ar-bg-cream"></div>
-            <div class="ar-bg-orange"></div>
-        </div>
-        
-        <div class="ar-container">
-            <!-- Left Text Content (Scene 1) -->
-            <div class="ar-text-block step-1">
-                <h2>Experience Food like never Before</h2>
-                <p>Scan & explore your favorite dish in AR</p>
-                <button class="ar-btn orange-btn">Try AR Now</button>
-            </div>
-            
-            <!-- Right Text Content (Scene 3) -->
-            <div class="ar-text-block step-2">
-                <h2>See Your Food Before You Order</h2>
-                <ul>
-                    <li><i class="fas fa-check-circle"></i> Scan meals instantly</li>
-                    <li><i class="fas fa-check-circle"></i> View ingredients</li>
-                    <li><i class="fas fa-check-circle"></i> Explore nutrition facts</li>
-                </ul>
-                <button class="ar-btn cream-btn">Try AR Demo</button>
-            </div>
 
-            <!-- Platter Image -->
-            <img src="images/hero-section/pizza images/pizza-1.webp" alt="AR Food Platter" class="ar-platter" id="ar-platter-img">
-            
-            <div class="ar-doodle">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M 50,150 Q 80,50 150,80" fill="transparent" stroke="white" stroke-width="4" stroke-linecap="round" stroke-dasharray="10, 10"/>
-                </svg>
-            </div>
-        </div>
-    </section>
-
-    <!-- New Scrolling Animation Sections from Codepen -->
+    <!-- New Scrolling Animation Sections from Codepen (Part 2) -->
     <div class="cp-wrapper">
-        <section class="first-section cp-section">
-            <h1>Make a Pizza by Scrolling with <br />Animation</h1>
-            <div class="images-wrapper">
-                <img class="section_1_bg" src="https://www.dropbox.com/s/ricsb7ra8cyr9or/section_1_bg.webp?raw=1" />
-                <div class="ingredient-images">
-                    <img class="section_1_01" src="https://www.dropbox.com/s/atuvpzvo59wxeef/section_1_01.webp?raw=1" />
-                    <img class="section_1_02" src="https://www.dropbox.com/s/7mvrx106israo1z/section_1_02.webp?raw=1" />
-                    <img class="section_1_03" src="https://www.dropbox.com/s/oewc2bioujvzlp7/section_1_03.webp?raw=1" />
-                    <img class="section_1_04" src="https://www.dropbox.com/s/bxezwiwtnkx1cw0/section_1_04.webp?raw=1" />
-                    <img class="section_1_05" src="https://www.dropbox.com/s/bftnm0v5j33uv9c/section_1_05.webp?raw=1" />
-                    <img class="section_1_06" src="https://www.dropbox.com/s/hz9jbiak3laqrqp/section_1_06.webp?raw=1" />
-                    <img class="section_1_07" src="https://www.dropbox.com/s/jdlxt8xxdrquh9a/section_1_07.webp?raw=1" />
-                    <img class="section_1_08" src="https://www.dropbox.com/s/s41b0ualql6b74d/section_1_08.webp?raw=1" />
-                    <img class="section_1_09" src="https://www.dropbox.com/s/luxhm5e7e57t7ac/section_1_09.webp?raw=1" />
-                </div>
-            </div>
-        </section>
-        <section class="second-section cp-section">
-            <h1>Highlight the Ingredients You Love</h1>
-            <p>A truly great pizza is made with flavors you cannot ignore.</p>
-            <div class="images-wrapper bottom">
-                <div class="image-container">
-                    <img class="section_2_06" src="https://www.dropbox.com/s/kb9fxs2l7y7obvp/section_2_06.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_07" src="https://www.dropbox.com/s/ebywdet3cjr0670/section_2_07.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_08" src="https://www.dropbox.com/s/slm1nqwrsuv34x8/section_2_08.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_09" src="https://www.dropbox.com/s/kywqj06sz972r7g/section_2_09.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_10" src="https://www.dropbox.com/s/0msebcd4otsahqe/section_2_10.webp?raw=1" />
-                </div>
-            </div>
-            <div class="images-wrapper top">
-                <div class="image-container">
-                    <img class="section_2_01" src="https://www.dropbox.com/s/fbdaroubtk7ctb2/section_2_01.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_02" src="https://www.dropbox.com/s/4724yf637hh0z1t/section_2_02.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_03" src="https://www.dropbox.com/s/5iquebsptt1gf4m/section_2_03.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_04" src="https://www.dropbox.com/s/49ebf38ycede0yb/section_2_04.webp?raw=1" />
-                </div>
-                <div class="image-container">
-                    <img class="section_2_05" src="https://www.dropbox.com/s/7th16qwis8v1vnq/section_2_05.webp?raw=1" />
-                </div>
-            </div>
-        </section>
         <section class="third-section cp-section">
-            <h1>Customize Your Perfect Pizza</h1>
-            <p>Choose from a variety of fresh ingredients, savory meats, and artisan cheeses.</p>
-            <div class="images-wrapper">
-                <img class="section_3_06" src="https://www.dropbox.com/s/cggf61ebt5glkdm/section_3_06.webp?raw=1" />
+            <div class="third-content">
+                <div class="third-text">
+                    <h1>Customize Your Perfect Pizza</h1>
+                    <p>Choose from a variety of fresh ingredients, savory meats, and artisan cheeses.</p>
+                </div>
+                <div class="images-wrapper">
+                    <img class="section_3_06" src="https://www.dropbox.com/s/cggf61ebt5glkdm/section_3_06.webp?raw=1" />
                 <img class="section_3_05" src="https://www.dropbox.com/s/y9v16yvcpcogt5h/section_3_05.webp?raw=1" />
                 <img class="section_3_04" src="https://www.dropbox.com/s/epb4iwra19fc7np/section_3_04.webp?raw=1" />
                 <img class="section_3_03" src="https://www.dropbox.com/s/bcuykp1rf8c672f/section_3_03.webp?raw=1" />
                 <img class="section_3_02" src="https://www.dropbox.com/s/rhkmo56qrrjsnwn/section_3_02.webp?raw=1" />
                 <img class="section_3_01" src="https://www.dropbox.com/s/7f6qkl52a6jiy08/section_3_01.webp?raw=1" />
             </div>
+            </div>
         </section>
     </div>
 
     <!-- Contact Section -->
     <section id="contact" class="content-section contact-section">
-        <div class="container">
-            <div class="contact-card">
-                <h2 class="reveal-text">Get In Touch</h2>
-                <p class="reveal-text">Have a question or want to place a catering order? We'd love to hear from you!</p>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
+        <div class="container contact-split">
+            <!-- Left Side: Info -->
+            <div class="contact-info-side">
+                <h2 class="reveal-text">Need more information?<br>Get in touch with us</h2>
+                <p class="subtitle reveal-text">A connected set of services designed to turn strategy into scale</p>
+                
+                <div class="contact-details reveal-text">
+                    <div class="contact-item">
+                        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h4>Phone Number</h4>
+                            <p>8545879625</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>camin@grabui.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>55 East 10th Street, New York,<br>NY 10003, United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Form -->
+            <div class="contact-form-side reveal-text">
+                <h2>Send Message</h2>
+                <p>Please fill out the form below with<br>your details and message to contact with us</p>
+                <form class="contact-form new-layout">
+                    <div class="form-row">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <input type="text" placeholder="Email or Phone Number" required>
+                    <textarea placeholder="Write Message Here..." rows="6" required></textarea>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
+
+
 
     <!-- Footer -->
     <footer class="footer">
@@ -298,7 +317,7 @@
                 <h4>Contact Info</h4>
                 <p><i class="fas fa-map-marker-alt"></i> 123 Pizza Lane, Flavor Town</p>
                 <p><i class="fas fa-envelope"></i> contact@fisto-tech.com</p>
-                <p><i class="fas fa-phone-alt"></i> +1 234 567 8900</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
             </div>
         </div>
         <div class="footer-bottom">
