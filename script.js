@@ -635,8 +635,8 @@ initMenuGrid();
 updateView(0);
 startAutoRotate();
 
-// --- AR Experience Section GSAP Animation ---
-function initARSection() {
+// --- Rotating Pizza Platter Section GSAP Animation ---
+function initRotatingPizzaSection() {
     if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
         console.warn('GSAP or ScrollTrigger not loaded.');
         return;
@@ -668,7 +668,7 @@ function initARSection() {
 }
 
 // Call init after DOM and scripts are fully loaded
-window.addEventListener('load', initARSection);
+window.addEventListener('load', initRotatingPizzaSection);
 
 // Header Scroll Effect
 window.addEventListener('scroll', () => {
