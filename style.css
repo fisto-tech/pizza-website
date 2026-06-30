@@ -1140,7 +1140,7 @@ body {
 
 .cp-section h1 {
     font-family: "Franklin Gothic Medium", sans-serif;
-    color: #43515c;
+    color: #a02141;
     font-size: 70px;
     font-weight: lighter;
     letter-spacing: -5px;
@@ -1157,6 +1157,7 @@ body {
     z-index: 999;
     position: relative;
     margin-top: 130px; /* Adjusted since h1 is absolute */
+    width: 70%;
 }
 
 .first-section {
@@ -1246,7 +1247,7 @@ body {
 
 .third-text h1 {
     font-family: "Franklin Gothic Medium", sans-serif;
-    color: #43515c;
+    color: #076e6c;
     font-size: 90px;
     font-weight: lighter;
     line-height: 1.1;
