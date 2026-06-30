@@ -1228,6 +1228,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: lighten;
 }
 
 .third-content {
