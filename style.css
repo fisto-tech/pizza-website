@@ -747,9 +747,11 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        padding: 20px;
-        flex-direction: column;
-        gap: 15px;
+        padding: 15px 20px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
     }
 
     .nav-links {
@@ -1524,9 +1526,7 @@ body {
         margin-top: 50px;
         margin-bottom: -150px; /* offset the empty space from scale */
     }
-    .ingredient-images {
-        left: calc(50% - 200px); /* 200px is half of 400px width */
-    }
+
     .first-section .images-wrapper {
         transform: scale(0.35);
         margin-top: 100px;
@@ -1541,6 +1541,9 @@ body {
 }
 
 @media (max-width: 768px) {
+    .first-section { height: 100vh; }
+    .second-section { height: 100vh; }
+    .third-section { height: 100vh; }
     .cp-section h1 { 
         font-size: 38px; 
         line-height: 1.2; 
@@ -1554,22 +1557,27 @@ body {
     }
     .first-section .images-wrapper {
         transform: scale(0.5);
-        margin-top: 80px;
-        margin-bottom: -200px;
+        margin-top: 350px;
+        margin-bottom: 0px;
     }
-    .ingredient-images {
-        left: calc(50% - 200px);
-    }
+
     .second-section .images-wrapper {
         transform: scale(0.5);
+        padding: 50px 0;
+        top: 45%;
     }
     .third-section .images-wrapper {
         transform: scale(0.6);
         margin-left: 0;
+        height: 300px;
+        margin-top: 0;
     }
 }
 
 @media (max-width: 480px) {
+    .first-section { height: 100vh; }
+    .second-section { height: 100vh; }
+    .third-section { height: 100vh; }
     .cp-section h1 { 
         font-size: 30px; 
     }
@@ -1578,7 +1586,19 @@ body {
     }
     .first-section .images-wrapper {
         transform: scale(0.35);
-        margin-top: 100px;
+        margin-top: 450px;
+    }
+    .second-section .images-wrapper {
+        transform: scale(0.4);
+        padding: 0;
+        top: 40%;
+        margin-top: 50px;
+    }
+    .third-section .images-wrapper {
+        transform: scale(0.45);
+        margin-left: 0;
+        height: 250px;
+        margin-top: 0;
     }
 }
 
